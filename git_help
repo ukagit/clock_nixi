@@ -1,0 +1,600 @@
+10179  cd ..
+10180  ls
+10181  cd EncoderSetting_test
+10182  ls
+10183  nvim Makefile
+10184  ag "ACm" | fzf
+10185  arduino-cli board list  
+10186  nvim Makefile
+10187  cli monitor
+10188  arduino-cli monitor
+10189  nvim Makefile
+10190  cd /home/ulrich/Dokumente/arduino_cli/Sketch
+10191  ls
+10192  cd Power_SWD_Bridge
+10193  ls
+10194  nvim  Makefile
+10195  cd ..
+10196  cd ESP32_ST77_LVGL
+10197  ls
+10198  nvim  Makefile
+10199  arduino-cli monitor
+10200  nvim  Makefile
+10201  arduino-cli monitor
+10202  arduino-cli board list  
+10203  nvim  Makefile
+10204  make monitor
+10205  make help
+10206  nvim  Makefile
+10207  cd /home/ulrich/Dokumente/arduino_cli/Sketch/clock_til311
+10208  ls
+10209  nvim  Makefile
+10210  cd ..
+10211  ls
+10212  cd Led_blink
+10213  ls
+10214  nvim Led_blink.ino
+10215  nvim  clock_til311.ino
+10216  make compile
+10217  make upload
+10218  nvim  clock_til311.in
+10219  nvim  Makefile
+10220  cd /home/ulrich/Dokumente/arduino_cli/Sketch/clock_til311
+10221  nvim  Makefile
+10222  arduino-cli board list  
+10223  nvim  Makefile
+10224  ag "115" | fzf
+10225  ag "-c" | fzf
+10226  ag "port" | fzf
+10227  ag "-c" | fzf
+10228  cd ..
+10229  ls
+10230  cd ESP32_ST77_LVGL
+10231  ls
+10232  nvim  Makefile
+10233  cd .
+10234  cd ..
+10235  cd clock_til311
+10236  nvim  Makefile
+10237  make monitor
+10238  make compile
+10239  make upload
+10240  nvim clock_til311.ino
+10241  make compile upload
+10242  make monitor
+10243  nvim clock_til311.ino
+10244  make compile upload monitor
+10245  nvim clock_til311.ino
+10246  make monitor
+10247  nvim clock_til311.ino
+10248  make compile upload monitor
+10249  make monitor
+10250  ls
+10251  cp clock_til311.ino blink.ino_save
+10252  nvim clock_til311.ino
+10253  make compile upload monitor
+10254  arduino-cli install  ThreeWire
+10255  arduino-cli lib install  ThreeWire
+10256  arduino-cli lib search  ThreeWire
+10257  arduino-cli lib update-index\narduino-cli lib install "Rtc by Makuna"\n
+10258  arduino-cli lib list | grep -i -E "rtc|threewire"\n
+10259  make compile upload monitor
+10260  make monitor
+10261  nvim clock_til311.ino
+10262  make monitor
+10263  ls
+10264  cp clock_til311.ino clock_til311.ino.save
+10265  nvim clock_til311.ino
+10266  notebook\n
+10267  make compile upload monitor
+10268  nvim clock_til311.ino
+10269  make compile upload monitor
+10270  nvim clock_til311.ino
+10271  cd /home/ulrich/Dokumente/arduino_cli/Sketch/clock_til311
+10272  nvim clock_til311.ino.save
+10273  make compile upload monitor
+10274  nvim clock_til311.ino.save
+10275  nvim clock_til311.ino
+10276  make compile upload monitor
+10277  nvim clock_til311.ino
+10278  make compile upload monitor
+10279  nvim clock_til311.ino
+10280  make compile upload monitor
+10281  nvim clock_til311.ino
+10282  make compile upload monitor
+10283  nvim clock_til311.ino
+10284  make compile upload monitor
+10285  nvim clock_til311.ino
+10286  make compile upload monitor
+10287  nvim clock_til311.ino
+10288  make compile upload monitor
+10289  nvim clock_til311.ino
+10290  make compile upload monitor
+10291  nvim clock_til311.ino
+10292  make monitor
+10293  nvim clock_til311.ino
+10294  make compile upload monitor
+10295  nvim clock_til311.ino
+10296  make compile upload monitor
+10297  nvim clock_til311.ino
+10298  make compile upload monitor
+10299  nvim clock_til311.ino
+10300  make compile upload monitor
+10301  nvim clock_til311.ino
+10302  make compile upload monitor
+10303  nvim clock_til311.ino
+10304  make compile upload monitor
+10305  nvim clock_til311.ino
+10306  make compile upload monitor
+10307  nvim clock_til311.ino
+10308  make compile upload monitor
+10309  nvim clock_til311.ino
+10310  make compile upload monitor
+10311  nvim clock_til311.ino
+10312  make compile upload monitor
+10313  nvim clock_til311.ino
+10314  make compile upload monitor
+10315  nvim clock_til311.ino
+10316  make compile upload monitor
+10317  make monitor
+10318  nvim clock_til311.ino
+10319  make monitor
+10320  nvim clock_til311.ino
+10321  make monitor
+10322  nvim clock_til311.ino
+10323  make compile upload monitor
+10324  nvim clock_til311.ino
+10325  make compile upload monitor
+10326  nvim clock_til311.ino
+10327  cp clock_til311.ino clock_til311.ino.save2
+10328  nvim clock_til311.ino
+10329  nvim clock_til311.ino.save2
+10330  make compile upload monitor
+10331  nvim clock_til311.ino
+10332  make compile upload monitor
+10333  date
+10334  cd /home/ulrich/Dokumente/arduino_cli/Sketch/clock_til311
+10335  ls
+10336  nvim clock_til311.md
+10337  cd ..
+10338  cd GitHub/clock_til311
+10339  make compile  
+10340  make compile uplaod
+10341  make compile upload monitor
+10342  ls
+10343  notebook\n
+10344  notebook -t "git  "githelp gitanweisung gitanleitung "\n
+10345  notebook -t  "111"
+10346  notebook -t "githelp gitanweisung gitanleitung"\n
+10347* cd  ..
+10348* mkdir g_test
+10349* cd g_test
+10350* git init -b main
+10351* ls
+10352* git init     
+10353* git add . 
+10354* git commit -m "init git first"
+10355* gh repo create g_test --public --source=. --remote=origin --push
+10356* ls
+10357* nvim hello.txt
+10358* ls
+10359* git add . 
+10360* ls
+10361* git commit -m "first hello"
+10362* git push   
+10363* cd ..
+10364* rm -r g_test
+10365* ls g*
+10366* mkdir git_test
+10367* cd git_test
+10368* nvim  hello.txt
+10369* ls
+10370* gh repo create git_test --public --source=. --remote=origin --push\n
+10371* ls
+10372* git init -b main
+10373* git branch -M main
+10374* git init  
+10375* git branch -M main
+10376* git --version
+10377* sudo apt update\ngit --version\n# optional: vorhandenes git entfernen (nicht zwingend)\n# sudo apt remove git\n\nsudo add-apt-repository ppa:git-core/ppa -y\nsudo apt update\nsudo apt install git\ngit --version\n
+10378* git init -b main\n
+10379* uname -a
+10380* git --version
+10381* grep -R "git-core.*ppa" /etc/apt/sources.list.d/ /etc/apt/sources.list\n
+10382* sudo add-apt-repository ppa:git-core/ppa
+10383* sudo apt update
+10384* git --version
+10385* sudo apt install git
+10386* git --version
+10387* sudo apt install git -y
+10388* sudo apt install git-all
+10389* git --version
+10390* clear
+10391* ls
+10392* git init     
+10393* git brach -M main
+10394* git branch -M main
+10395* ls
+10396* ls .  
+10397* ll
+10398* la
+10399* rm .git
+10400* rm -r .git
+10401* la
+10402* clear
+10403* git init     
+10404* git branch -M main
+10405* history | head -10
+10406* history | tail -10
+10407* clear
+10408* git init     
+10409* git symbolic-ref HEAD refs/heads/main
+10410* git add . 
+10411* git commit -m "Initial commit"
+10412* gh repo create git_test --public --source=. --remote=origin --push
+10413* gh repo view --web
+10414  notebook 
+10415* gh repo delete ukagit/git_test\n
+10416* gh repo view ukagit/git_test --json owner,viewerPermission -q '.owner.login, .viewerPermission'\n
+10417* gh auth status\n
+10418* gh repo delete ukagit/git_test      # mit Sicherheitsabfrage\n# oder ohne Nachfrage:\ngh repo delete ukagit/git_test --confirm\n
+10419* gh auth refresh -h github.com -s delete_repo\n
+10420* gh repo delete ukagit/git_test\n
+10421* gh repo delete ukagit/git_test --confirm
+10422* gh repo delete ukagit/git_test --yes
+10423* gh auth refresh -h github.com -s delete_repo
+10424* gh repo delete ukagit/git_test --yes
+10425* gh repo delete ukagit/til311-clock --yes
+10426* gh repo delete ukagit/clock_til311 --yes
+10427* gh repo delete ukagit/lernen --yes
+10428* gh repo delete ukagit/desktop-tutorial --yes
+10429* gh repo delete ukagit/blink-led --yes
+10430* gh repo delete ukagit/pico-examples --yes
+10431* git commit -m "Initial commit"
+10432* gh repo create git_test --public --source=. --remote=origin --push
+10433* gh repo delete ukagit/git_test --yes
+10434* cd ..
+10435* cd clock_til311
+10436* la
+10437* ls 
+10438* rm -r clock_til311
+10439* ls
+10440* git init     
+10441* git symbolic-ref HEAD refs/heads/main
+10442* git commit -m "Initial commit"
+10443* gh repo create clock_til311 --public --source=. --remote=origin --push
+10444* git commit -m "Initial commit"
+10445* git add . 
+10446* git commit -m "Initial commit"
+10447* ls
+10448* gh repo create clock_til311 --public --source=. --remote=origin --push
+10449  cd /home/ulrich/Dokumente/arduino_cli/Sketch/clock_til311
+10450  ls
+10451  cd ..
+10452  cd GitHub/clock_til311
+10453  ls
+10454  nvim clock_til311.md
+10455  nvim clock_til311_doc_de
+10456  nvim clock_til311_doc_de.md
+10457  notebook 
+10458* ls
+10459* mv README\(2\).md README.md
+10460* nvim README.md
+10461* git add README.md
+10462  notebook 
+10463* git commit -m "README erstellt"
+10464* git push  orgin main
+10465* git push  origin main
+10466* ls
+10467* git add *.jpg
+10468* git push  origin main
+10469* nvim README.md
+10470* nvim README_with_images.md
+10471* mkdir -p docs/images
+10472* cp *.jpg ./docs/images
+10473* cd docs/images
+10474* ls
+10475* mv IMG_9662.jpg til311_clock_front.jpg
+10476* mv IMG_9663.jpg til311_clock_board.jpg
+10477* ls
+10478* cd ..
+10479* ls
+10480* cd .
+10481* cd ..
+10482* ls
+10483* rm IMG_9662.jpg
+10484* rm IMG_9663.jpg
+10485* ls
+10486* mv clock_til311_doc_* ./docs
+10487* ls
+10488* rm README.md
+10489* mv README.md
+10490* mv README_with_images.md README.md
+10491* ls
+10492* nvim README.md
+10493* mkdir src
+10494* cp clock_til311.ino ./src
+10495* ls
+10496* mv clock_til311.ino ./src
+10497* ls
+10498* mv Makefile ./src
+10499* ls
+10500* git add .
+10501* git commit -m " neue datei struktur"
+10502* git push  origin main
+10503* ls
+10504* cd docs/images
+10505* ls
+10506* ll
+10507* mv yt_clock yt_clock.MOV
+10508* nvim README_youtupe.md
+10509* nvim README_youtupe.txt
+10510  notebook 
+10511* nvim  testmacro.txt
+10512  notebook 
+10513* cd ~
+10514* nvim cd ~/.config/nvim/
+10515* nvim cd ~/.config/nvim/init.lua
+10516* ls
+10517* cd ~/.config/nvim/init.lua
+10518* cd ~/.config/nvim/
+10519* ls
+10520* more init.lua
+10521* nvim tt.txt
+10522* ls
+10523* pwd
+10524* cd ..
+10525* ls
+10526* pwd
+10527* cd ./nvim
+10528* ls
+10529* cd lua
+10530* ls
+10531* cd config
+10532* ls
+10533* nvim autocmds.lua
+10534* nvim dd.txt
+10535* nvim autocmds.lua
+10536* nvim dd.txt
+10537* nvim autocmds.lua
+10538* nvim dd.txt
+10539* nvim autocmds.lua
+10540* nvim dd.txt
+10541* nvim autocmds.lua
+10542* ag "LineNr" | fzf
+10543* pwd
+10544* cd ..
+10545* ls
+10546* cd plugins
+10547* ls
+10548* more dd.txt
+10549* ls
+10550* rm dd.txt
+10551* nvim colors.lua 
+10552* pwd
+10553* ls
+10554* nvim colors.lua 
+10555* nvim -V9~/nvim-verbose.log
+10556* :q
+10557* pwd
+10558* cd ..
+10559* ls
+10560* pwd
+10561* ag "LineNr" | fzf
+10562* cd ..
+10563* pwd
+10564* ag "LineNr" | fzf
+10565* nvim dd.txt
+10566* ag "3b4261" | fzf
+10567* nvim v1 
+10568* nvim -V1
+10569* nvim -V1~/nvim-verbose.log
+10570* nvim ~/nvim-verbose.log
+10571* nvim -V9~/nvim-verbose.log\n
+10572* nvim -V1~/nvim-verbose.log\n
+10573* pwd
+10574* cd ~
+10575* ls
+10576* ll
+10577* ls
+10578* ls *.log
+10579* ll *.log
+10580* nvim txt.txt
+10581* ll *.log
+10582* nvim nvim-verbose.log
+10583* nvim ddd.txt
+10584* notebook  -t "nvim colorschema setzen"
+10585* nvim ~/.config/nvim/lua/plugins/colorscheme.lua
+10586* notebook  
+10587* mv ~/.config/nvim/lua/plugins/colors.lua               ~/.config/nvim/lua/plugins/colors.lua.bak 2>/dev/null || true\nmv ~/.config/nvim/lua/plugins/line-nr-highlights.lua   ~/.config/nvim/lua/plugins/line-nr-highlights.lua.bak 2>/dev/null || true\nmv ~/.config/nvim/lua/plugins/gitsigns.lua             ~/.config/nvim/lua/plugins/gitsigns.lua.bak 2>/dev/null || true\n
+10588* notebook  
+10589* nvim ~/.config/nvim/lua/config/autocmds.lua
+10590* notebook  
+10591* nvim ~/.config/nvim/lua/config/autocmds.lua
+10592* notebook  
+10593* nvim ~/.config/nvim/lua/config/autocmds.lua
+10594* notebook  
+10595* ps -p 15907 -o pid,etime,cmd\n
+10596* ~/.local/state/nvim/swap/\n
+10597* ls
+10598* ls *.swp
+10599* rm *.swp
+10600* ls *.swp
+10601* notebook  
+10602* rm ~/.config/nvim/lua/plugins/*.bak 2>/dev/null || true\n
+10603* notebook  
+10604* cd ~
+10605* ls
+10606* ls *.txt
+10607* nvim ddd.txt
+10608* notebook  
+10609  nvim  testmacro.txt
+10610* nvim ddd.txt
+10611* notebook  
+10612* ls /dev/tty*
+10613* ls /dev/tty* | wc
+10614* cd /home/ulrich/Dokumente/arduino_cli/Sketch
+10615* cd /home/ulrich/Dokumente/
+10616* ls
+10617* cd micropython_esp8266
+10618* ls
+10619* source venv/bin/activate
+10620* mpremote help
+10621* mpremote a0
+10622* cd ..
+10623* mkdir micropython_mega
+10624* cd micropython_mega
+10625* ls
+10626* cd ..
+10627* rm micropython_mega
+10628* rm  -r micropython_mega
+10629* ls /dev/tty* 
+10630* cd micropython_rp2
+10631* ls
+10632* source venv/bin/activate
+10633* cd raumschiff
+10634* ls
+10635* mpremote 
+10636* nvim hello.py
+10637* mpremote  fs ls
+10638* cd ..
+10639* clock_nixi
+10640* mkdir clock_nixi
+10641* cd clock_nixi
+10642* nvim blink.py
+10643* mpremote  cp blink.py :
+10644* mpremote  run blink.py :
+10645* ls
+10646* nvim set_port.py
+10647* mpremote  set_port.py :
+10648* mpremote run  set_port.py :
+10649* mpremote run  set_port.py 
+10650* mpremote  cp set_port.py :
+10651* mpremote  
+10652* ls
+10653* clear
+10654* ls
+10655* cp set_port.py port4.py
+10656* mpremote  cp port4.py :
+10657* mpremote  
+10658* nvim set_port.py
+10659* mpremote  cp port4.py :
+10660* mpremote  run blink.py :
+10661* mpremote  run port4.py
+10662* mpremote 
+10663* nvim set_port.py
+10664* mpremote 
+10665* nvim port4.py
+10666* mpremote cp port4.py :
+10667* mpremote run port4.py
+10668* mpremote 
+10669* mpremote run port4.py
+10670* mpremote 
+10671* mpremote *----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10672* ls
+10673* mpremote
+10674* öo9
+10675* mpremote
+10676* nvim port4.py
+10677* mpremote cp port4.py :
+10678* mpremote 
+10679* nvim clock.py
+10680* mpremote cp clock.py :
+10681* mpremote
+10682* nvim clock.py
+10683* mpremote cp clock.py :
+10684* mpremote
+10685* nvim clock.py
+10686* mpremote cp clock.py :
+10687* mpremote
+10688* nvim clock.py
+10689* mpremote
+10690* nvim clock.py
+10691* mpremote cp clock.py :
+10692* mpremote
+10693* nvim clock.py
+10694* mpremote cp clock.py :
+10695* mpremote
+10696* nvim scan_i2c.py
+10697* mpremote cp scan_i2c.py :
+10698* mpremote 
+10699* nvim scan_i2c.py
+10700* mpremote cp scan_i2c.py :
+10701* mpremote 
+10702* nvim scan_i2c.py
+10703* mpremote run scan_i2c.py
+10704* nvim scan_i2c.py
+10705* mpremote run scan_i2c.py
+10706* nvim scan_i2c.py
+10707* mpremote run scan_i2c.py
+10708* nvim scan_i2c.py
+10709* mpremote run scan_i2c.py
+10710* nvim scan_i2c.py
+10711* mpremote run scan_i2c.py
+10712* clear
+10713* nvim clock.py #
+10714* mpremote cp clock.py :
+10715* mpremote 
+10716* nvim clock.py 
+10717* mpremote cp clock.py :
+10718* mpremote 
+10719* nvim clock.py 
+10720* mpremote 
+10721* cp clock.py main.py
+10722* nvim main.py
+10723* mpremote cp main.py :  
+10724* nvim main.py
+10725* mpremote cp main.py :  
+10726* ls
+10727* pwd
+10728  cd ..
+10729  mkdir clock_nixi
+10730  ls
+10731* pwd
+10732* cd ..
+10733* cd GitHub/clock_nixi
+10734* ls
+10735* nvim READMY.md
+10736* date
+10737  pwd
+10738  cd GitHub/clock_nixi
+10739  ls
+10740  cd clock_nixi
+10741  ls
+10742  nvim READMY.md
+10743* notebook  
+10744* cd ..
+10745* ls
+10746* cd clock_til311
+10747* ls
+10748* nvim READMY.md
+10749* nvim README.md
+10750* ls
+10751* notebook  
+10752  ls
+10753  git init
+10754  git symbolic-ref HEAD refs/heads/main
+10755  git commit -m " neue datei struktur"
+10756  gh auth lgin
+10757  gh auth login
+10758  gh create clock_nixi --public --cource=, --remote=origin --push
+10759  gh repo create clock_nixi --public --cource=, --remote=origin --push
+10760  gh repo create clock_nixi --public --source=, --remote=origin --push
+10761  gh repo view --web
+10762  gh repo create clock_nixi --public --source=, --remote=origin --push
+10763  git -c 
+10764  git commit -m " neue datei struktur"
+10765  git add .
+10766  gh repo create clock_nixi --public --source=, --remote=origin --push
+10767  git commit -m " neue datei struktur"
+10768  gh repo create clock_nixi --public --source=, --remote=origin --push
+10769  git -C
+10770  ll   
+10771  git init -b main\n
+10772  cd ..\n
+10773  cd clock_nixi
+10774  git init -b main\n
+10775  gh repo status
+10776  history | tail -110
+10777  history | tail -300 > git_help
+10778  nvim git_help
